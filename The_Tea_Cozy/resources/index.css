@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+header {
+    top: 0px;
+    display: flex;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+}
+
+.logo {
+    display: inline-flex;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav {
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav a {
+    color: seashell;
+    margin-right: 30px;
+}
+
+.nav li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.body {
+    display: block;
+}
+
+.mission {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    margin-top: 70px;
+    background-image: url(./images/img-mission-background.jpg);
+}
+
+.mission-statement {
+    width: 100%;
+    display: block;
+    background-color: black;
+    position: relative;
+}
+
+.mission h2, .mission h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+.featured {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 70px;
+    width: 1000px;
+    justify-content: center;
+}
+.fall-berry-blitz {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.featured-images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fall-berry-blitz img {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+}
+
+.fall-berry-blitz h4 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.locations {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    background-image: url(./images/img-locations-background.jpg);
+}
+
+.location-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.location-list {
+    display: inline-flex;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    margin: 15px 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.contact h2 {
+    padding-top: 20px;
+}
+
+.contact h5 {
+    padding-top: 10px;
+}
+
+.footer {
+    text-align: left;
+    padding-left: 20px;
+}
